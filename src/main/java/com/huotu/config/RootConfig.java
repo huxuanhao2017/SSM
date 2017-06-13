@@ -12,7 +12,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import javax.naming.NamingException;
 
 /**
- * Created by huxuanhao on 2017-06-13.
+ * Created by hxh on 2017-06-13.
  */
 @Configuration
 @ComponentScan(basePackages = "com.huotu")

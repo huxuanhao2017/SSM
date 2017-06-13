@@ -14,7 +14,7 @@ import org.thymeleaf.spring3.view.ThymeleafViewResolver;
 import org.thymeleaf.templateresolver.ITemplateResolver;
 
 /**
- * Created by huxuanhao on 2017-04-17.
+ * Created by hxh on 2017-04-17.
  */
 @Configuration
 @EnableWebMvc

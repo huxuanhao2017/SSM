@@ -1,7 +1,7 @@
 package com.huotu.entity;
 
 /**
- * Created by huxuanhao on 2017-06-13.
+ * Created by hxh on 2017-06-13.
  */
 public class User {
 

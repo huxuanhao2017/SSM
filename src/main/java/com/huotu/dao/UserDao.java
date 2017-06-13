@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
 /**
- * Created by huxuanhao on 2017-06-13.
+ * Created by hxh on 2017-06-13.
  */
 @Repository
 public interface UserDao {

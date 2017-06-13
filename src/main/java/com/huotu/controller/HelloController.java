@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by huxuanhao on 2017-06-13.
+ * Created by hxh on 2017-06-13.
  */
 @Controller
 public class HelloController {
