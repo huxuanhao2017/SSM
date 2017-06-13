@@ -7,9 +7,9 @@
         <result column="email" property="email" jdbcType="VARCHAR"/>
     </resultMap>
 
-    <select id="queryUserInfoByEmail" resultMap="User" parameterType="java.lang.String">
+    <select id="queryUserInfoByEmail" resultMap="User" parameterType="String">
         select customer_id,customer_name,email
         from customer
         where email= #{email,jdbcType=VARCHAR}
-    </select>
+        </select>
 </mapper>
