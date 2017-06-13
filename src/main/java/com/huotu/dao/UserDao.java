@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 /**
  * Created by huxuanhao on 2017-06-13.
  */
-@Repository("userDao")
+@Repository
 public interface UserDao {
 
     @Select("select customer_name from customer where email= #{email}")
