@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Created by hxh on 2017-06-13.
@@ -23,5 +24,10 @@ public class HelloController {
         model.addAttribute("hello", "name is " + name);
         model.addAttribute("world", "id is " + user.getUserId());
         return "hello";
+    }
+    @RequestMapping("/testPrint")
+    @ResponseBody
+    public String testPrint(){
+        return "成功";
     }
 }
