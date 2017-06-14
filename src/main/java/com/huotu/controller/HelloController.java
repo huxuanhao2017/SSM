@@ -1,6 +1,7 @@
 package com.huotu.controller;
 
 import com.huotu.dao.UserDao;
+import com.huotu.entity.Result;
 import com.huotu.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,9 +26,10 @@ public class HelloController {
         model.addAttribute("world", "id is " + user.getUserId());
         return "hello";
     }
+
     @RequestMapping("/testPrint")
     @ResponseBody
-    public String testPrint(){
-        return "成功";
+    public Result testPrint() {
+        return Result.successWith("成功");
     }
 }

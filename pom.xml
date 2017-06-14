@@ -20,8 +20,10 @@
         <jackson.version>2.4.3</jackson.version>
         <json.version>1.9.13</json.version>
         <diamond.version>0.0.18</diamond.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
         <!-- 日志配置-->
         <dependency>
