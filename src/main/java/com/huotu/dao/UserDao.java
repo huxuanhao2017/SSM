@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 /**
  * Created by hxh on 2017-06-13.
  */
@@ -15,5 +17,9 @@ public interface UserDao {
     String queryUserNameByEmail(@Param("email") String email);
 
     User queryUserInfoByEmail(@Param("email") String email);
+
+    void save(User user);
+
+    List<User> findALL();
 
 }

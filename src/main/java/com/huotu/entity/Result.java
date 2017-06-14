@@ -4,6 +4,8 @@ package com.huotu.entity;
 import com.huotu.common.ResultType;
 
 /**
+ * 返回数据包装类
+ *
  * Created by hxh on 2017-06-14.
  */
 public class Result {

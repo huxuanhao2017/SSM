@@ -20,7 +20,7 @@ import javax.naming.NamingException;
 public class RootConfig {
     private static String diver = "com.mysql.jdbc.Driver";
 
-    private static String url = "jdbc:mysql://localhost:3306/buycat";
+    private static String url = "jdbc:mysql://localhost:3306/buycat?useUnicode=true&characterEncoding=utf-8";
 
     private static String user = "root";
 

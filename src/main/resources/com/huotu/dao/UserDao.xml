@@ -12,4 +12,10 @@
         from customer
         where email= #{email,jdbcType=VARCHAR}
         </select>
+    <insert id="save" parameterType="User">
+        insert into Customer(customer_id,customer_name,email) values(#{userId},#{userName},#{email})
+    </insert>
+    <select id="findALL" resultMap="User">
+        SELECT * from customer
+    </select>
 </mapper>
